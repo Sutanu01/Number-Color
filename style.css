@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  
+}
+.container{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+}
+.box{
+    width: 35px;
+    height: 35px;
+    border:1px solid black;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(222, 219, 219);
+    border-radius: 3px;
+}
+.box:hover{
+    background-color: rgb(89, 86, 86);
+}
+.grid{
+    margin: 10px;
+    margin-top: 30px;
+    border:1px solid black;
+    width:200px;
+    height:200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); 
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.703);
+    backdrop-filter: blur(10px);
+}
+input{
+    border: 1px solid black;
+    height: 30px;
+    outline: 0;
+    border-radius: 3px;
+    width: 80px;
+    text-align: center;
+}
+button{
+    outline:0;
+    border: 1px solid black;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(67, 67, 231);
+}
+button:hover {
+    background-color: rgb(22, 22, 154);
+}
+form{
+   width: 200px;
+   padding-left: 20px;
+   padding-right: 20px;
+   height: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.highlight{
+    background-color: rgb(5, 169, 169);
+}
+.error-msg{
+    margin-top: 10px;
+    color: rgb(5, 71, 71);
+    display: none;
+}
