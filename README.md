@@ -1,5 +1,4 @@
 <h1 align="center">This is to COLOR the Number</h1>
-<h3 align="center">This is made using HTML,CSS and JAVASCRIPT</h3>
 <h5 align="center">This is just for practicing</h5>
 - 📫 How to reach me **sutanuj11@gmail.com**
 
