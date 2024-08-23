@@ -1,4 +1,4 @@
-<h1 align="center">This is a TIC-TAC-TOE GAME</h1>
+<h1 align="center">This is to COLOR the NUMBER</h1>
 <h3 align="center">This is made using HTML,CSS and JAVASCRIPT</h3>
 <h5 align="center">This is just for practicing</h5>
 
